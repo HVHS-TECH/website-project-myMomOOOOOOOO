@@ -1,0 +1,33 @@
+me<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Style.CSS">
+<title>Food-Home</title>
+</head>
+<body>
+<div class="NavBar">Navigation</div>
+<h1>Most Popular Foods in the World</h1>
+<p>This is a paragraph.</p>
+<div class="Grid">
+  <div class="box">
+     <a href="FoodPages/RamenPage10.html">
+        <h3>Number 10: Ramen!</h3>
+        <img src="Ramen.jpeg" alt="Ramen">
+        <p1>Japanese noodle soup with rich broth and tasty toppings.</p1>
+    </a>
+  </div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+    <div class="box">Box 4</div>
+    <div class="box">Box 5</div>
+    <div class="box">Box 6</div>
+    <div class="box">Box 7</div>
+    <div class="box">Box 8</div>
+    <div class="box">Box 9</div>
+    <div class="box">Box 10</div>
+</div>
+
+</body>
+</html>
+
+
