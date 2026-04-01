@@ -33,3 +33,6 @@
 .box p {
     font-size: 15px;
 }
+.box:nth-child(10) {
+    grid-column: 2;  
+}
