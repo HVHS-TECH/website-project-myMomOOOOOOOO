@@ -6,11 +6,12 @@
 }
 
 .NavBar {
-   background-color:grey; 
+   background-color:rgb(21, 81, 21)
+   
 }
 
 .box {
-    width: 250px;
+    
     padding: 10px;
     box-sizing: border-box;
     background-color: lightgray;
