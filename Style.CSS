@@ -8,7 +8,6 @@
 .NavBar {
     text-align: center;
     -webkit-text-fill-color: rgb(206, 153, 40);
-    text
     padding: 10px;
     box-sizing:border-box;
     border: 5px solid rgb(0, 11, 0);
@@ -47,4 +46,11 @@
 }
 .box:nth-child(10) {
     grid-column: 2;  
+}
+
+.NavBar img {
+    width: 10%;
+    aspect-ratio: 1 / 1;  
+    object-fit: cover;  
+    
 }
