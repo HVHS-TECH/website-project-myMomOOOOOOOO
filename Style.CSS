@@ -50,6 +50,5 @@
 .NavBar img {
     width: 10%;
     aspect-ratio: 1 / 1;  
-    object-fit: cover;  
-    
+    object-fit: cover;   
 }
