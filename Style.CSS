@@ -12,7 +12,9 @@
     box-sizing:border-box;
     border: 5px solid rgb(0, 11, 0);
     border-radius: 20px;
-    background-color:rgb(21, 81, 21)
+    background-color:rgb(21, 81, 21);
+
+    position: relative; 
 }
 
 .box {
@@ -48,7 +50,10 @@
 }
 
 .NavBar img {
-    width: 10%;
-    aspect-ratio: 1 / 1;  
-    object-fit: cover;   
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    width: 150px;   
+    height: auto;
 }
