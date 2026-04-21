@@ -1,12 +1,13 @@
+/* GRID */
 .Grid {
     display: grid;
     grid-template-columns: 250px 250px 250px;
     gap: 20px;
     justify-content: center;
-
-    margin-top: 15px; 
+    margin-top: 15px;
 }
 
+/* NAVBAR */
 .NavBar {
     position: relative;
     text-align: center;
@@ -18,27 +19,64 @@
     background-color: rgb(21, 81, 21);
 }
 
+/* LOGO */
+.NavBar img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 120px;
+}
+
+/* NAV BUTTONS */
+.NavLinks {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.NavButton {
+    background-color: #5a3a1b;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.NavButton a {
+    text-decoration: none;
+    color: rgb(206, 153, 40);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.NavButton:hover {
+    background-color: #7a4a22;
+}
+
+/* BOXES */
 .box {
-    
     padding: 10px;
     box-sizing: border-box;
     background-color: rgb(224, 117, 17);
     text-align: center;
     border: 2px solid #555555;
-    border-radius: 20px;          
+    border-radius: 20px;
 }
 
+/* IMAGES */
 .box img {
     width: 80%;
-    aspect-ratio: 1 / 1;  
-    object-fit: cover;  
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 
+/* LINKS */
 .box a {
     text-decoration: none;
     color: black;
 }
 
+/* TEXT */
 .box h3 {
     margin: 5px 0;
 }
@@ -46,31 +84,8 @@
 .box p {
     font-size: 15px;
 }
+
+/* CENTER PIZZA BOX */
 .box:nth-child(10) {
-    grid-column: 2;  
-}
-
-.NavBar img {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 150px;
-}
-
-.NavLinks {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-}
-
-.NavLinks a {
-    margin-left: 15px;
-    text-decoration: none;
-    color: rgb(206, 153, 40);
-    font-weight: bold;
-    font-size: 50px;
-}
-
-.NavLinks a:hover {
-    text-decoration: underline;
+    grid-column: 2;
 }
