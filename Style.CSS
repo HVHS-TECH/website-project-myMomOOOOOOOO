@@ -54,18 +54,21 @@
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 70px;
+    width: 150px;
 }
 
 .NavLinks {
-    margin-top: 10px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 .NavLinks a {
-    margin: 0 10px;
+    margin-left: 15px;
     text-decoration: none;
     color: rgb(206, 153, 40);
     font-weight: bold;
+    font-size: 50px;
 }
 
 .NavLinks a:hover {
