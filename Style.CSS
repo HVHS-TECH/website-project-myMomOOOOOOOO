@@ -27,30 +27,37 @@
     width: 120px;
 }
 
-/* NAV BUTTONS */
-.NavLinks {
+/* RIGHT SIDE PANEL */
+.NavRight {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: #5a3a1b; /* brown panel */
+    border-left: 3px solid black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
     display: flex;
-    gap: 10px;
+    align-items: center;
+    padding: 0 20px;
 }
 
-.NavButton {
-    background-color: #5a3a1b;
-    padding: 10px 15px;
-    border-radius: 10px;
+/* LINKS */
+.NavLinks {
+    display: flex;
+    gap: 15px;
 }
 
-.NavButton a {
+.NavLinks a {
     text-decoration: none;
     color: rgb(206, 153, 40);
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
 }
 
-.NavButton:hover {
-    background-color: #7a4a22;
+.NavLinks a:hover {
+    text-decoration: underline;
 }
 
 /* BOXES */
@@ -85,7 +92,7 @@
     font-size: 15px;
 }
 
-/* CENTER PIZZA BOX */
+/* CENTER LAST BOX (PIZZA) */
 .box:nth-child(10) {
     grid-column: 2;
 }
