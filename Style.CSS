@@ -59,3 +59,18 @@
     width: 150px;   
     height: auto;
 }
+
+.NavLinks {
+    margin-top: 10px;
+}
+
+.NavLinks a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(206, 153, 40);
+    font-weight: bold;
+}
+
+.NavLinks a:hover {
+    text-decoration: underline;
+}
