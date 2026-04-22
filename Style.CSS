@@ -176,7 +176,7 @@
     box-shadow: 0 0 5px gold;
 }
 
-.FoodPage {
+.FoodPage10 {
     max-width: 700px;
     margin: 40px auto;
     background-color: white;
@@ -186,10 +186,11 @@
     border: 5px solid rgb(0, 11, 0);
 }
 
-.FoodPage img {
+.FoodPage10 img {
     width: 60%;
     border-radius: 15px;
     margin: 15px 0;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
 }
 
 .BackButton {
@@ -200,4 +201,14 @@
     background-color: black;
     padding: 10px 15px;
     border-radius: 10px;
+}
+
+.FoodPage10 h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.FoodPage10 p {
+    margin: 10px 0;
+    line-height: 1.5;
 }
