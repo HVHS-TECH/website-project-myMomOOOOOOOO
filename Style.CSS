@@ -176,7 +176,7 @@
     box-shadow: 0 0 5px gold;
 }
 
-.FoodPage10 {
+.FoodPage {
     max-width: 700px;
     margin: 40px auto;
     background-color: white;
@@ -186,7 +186,7 @@
     border: 5px solid rgb(0, 11, 0);
 }
 
-.FoodPage10 img {
+.FoodPage img {
     width: 60%;
     border-radius: 15px;
     margin: 15px 0;
@@ -208,17 +208,17 @@
     background-color: #444;
 }
 
-.FoodPage10 h1 {
+.FoodPage h1 {
     font-size: 50px;
     margin-bottom: 10px;
 }
 
-.FoodPage10 p {
+.FoodPage p {
     margin: 10px 0;
     line-height: 1.5;
 }
 
-.FunFact10 {
+.FunFact {
     background-color: #ffe4b5;
     padding: 10px;
     border-radius: 10px;
@@ -234,11 +234,11 @@
     margin-bottom: 10px;
 }
 
-.FoodPage10 h2 {
+.FoodPage h2 {
     margin-top: 20px;
     font-size: 24px;
 }
 
-.FoodPage10 p {
+.FoodPage p {
     line-height: 1.5;
 }
