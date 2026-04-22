@@ -224,3 +224,21 @@
     border-radius: 10px;
     margin-top: 15px;
 }
+
+.Rating {
+    font-weight: bold;
+    background-color: gold;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.FoodPage10 h2 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.FoodPage10 p {
+    line-height: 1.5;
+}
