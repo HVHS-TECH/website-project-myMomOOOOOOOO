@@ -195,12 +195,17 @@
 
 .BackButton {
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 20px;
     text-decoration: none;
     color: white;
     background-color: black;
     padding: 10px 15px;
     border-radius: 10px;
+    transition: 0.2s;
+}
+
+.BackButton:hover {
+    background-color: #444;
 }
 
 .FoodPage10 h1 {
