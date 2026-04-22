@@ -175,3 +175,29 @@
     outline: none;
     box-shadow: 0 0 5px gold;
 }
+
+.FoodPage {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.FoodPage img {
+    width: 60%;
+    border-radius: 15px;
+    margin: 15px 0;
+    
+}
+
+.BackButton {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
