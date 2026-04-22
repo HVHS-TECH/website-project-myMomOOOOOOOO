@@ -123,6 +123,7 @@
     padding: 20px;
     border-radius: 15px;
     text-align: center;
+    border: 5px solid rgb(0, 11, 0);
 }
 
 
@@ -133,6 +134,7 @@
     padding: 20px;
     border-radius: 15px;
     text-align: center;
+    border: 5px solid rgb(0, 11, 0);
 }
 
 .AboutExtra ul {
