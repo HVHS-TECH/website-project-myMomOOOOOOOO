@@ -163,3 +163,15 @@
     transform: scale(1.05);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
 }
+
+.SearchBar {
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 15px;
+    width: 150px;
+}
+.SearchBar:focus {
+    outline: none;
+    box-shadow: 0 0 5px gold;
+}
