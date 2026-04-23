@@ -131,5 +131,19 @@ window.addEventListener("scroll", () => {
 });
 </script>
 
+<script>
+const search = document.querySelector(".SearchBar");
+const boxes = document.querySelectorAll(".box");
+
+search.addEventListener("keyup", () => {
+  const value = search.value.toLowerCase();
+
+  boxes.forEach(box => {
+    const text = box.innerText.toLowerCase();
+    box.style.display = text.includes(value) ? "block" : "none";
+  });
+});
+</script>
+
 </body>
 </html>
