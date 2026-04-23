@@ -222,10 +222,15 @@ body {
     transition: 0.3s;
 }
 
+.BackToTop {
+    display: none;
+}
+
 .BackToTop:hover {
     opacity: 1;
     background-color: #444;
 }
+
 
 html {
     scroll-behavior: smooth;
