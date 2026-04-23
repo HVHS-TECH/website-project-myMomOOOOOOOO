@@ -11,7 +11,7 @@
 .NavBar {
     position: relative;
     text-align: center;
-    -webkit-text-fill-color: rgb(206, 153, 40);
+    color: rgb(206, 153, 40);
     padding: 10px;
     box-sizing: border-box;
     border: 5px solid rgb(0, 11, 0);
@@ -60,6 +60,20 @@
     text-decoration: underline;
 }
 
+/* SEARCH BAR */
+.SearchBar {
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 15px;
+    width: 150px;
+}
+
+.SearchBar:focus {
+    outline: none;
+    box-shadow: 0 0 5px gold;
+}
+
 /* BOXES */
 .box {
     padding: 10px;
@@ -68,6 +82,12 @@
     text-align: center;
     border: 3px solid #000000;
     border-radius: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
 }
 
 /* IMAGES */
@@ -77,13 +97,12 @@
     object-fit: cover;
 }
 
-/* LINKS */
+/* BOX TEXT */
 .box a {
     text-decoration: none;
     color: black;
 }
 
-/* TEXT */
 .box h3 {
     margin: 5px 0;
 }
@@ -92,44 +111,11 @@
     font-size: 15px;
 }
 
-.box:nth-child(10) {
-    grid-column: 2;
-}
-
-.AboutTitle {
-    position: absolute;
-    top: 22%;
-    right: 43%;
-    text-align: center;
-    -webkit-text-fill-color: rgb(0, 0, 0);
-    padding: 10px;
-    box-sizing: border-box;
-    border: 5px solid rgb(0, 11, 0);
-    background-color: rgb(31, 195, 31);
-}
-
-.AboutText {
-    position: absolute;
-    top: 40%;
-    text-align: center;
-
-}
- 
-
-.AboutContainer {
-    max-width: 700px;
-    margin: 50px auto;
-    background-color: white;
-    padding: 20px;
-    border-radius: 15px;
-    text-align: center;
-    border: 5px solid rgb(0, 11, 0);
-}
-
-
+/* ABOUT PAGE */
+.AboutContainer,
 .AboutExtra {
     max-width: 700px;
-    margin: 20px auto;
+    margin: 30px auto;
     background-color: white;
     padding: 20px;
     border-radius: 15px;
@@ -147,35 +133,13 @@
     font-weight: bold;
 }
 
-.Footer {
-    margin-top: 40px;
-    padding: 15px;
+/* ABOUT TITLE (optional, cleaned) */
+.AboutTitle {
     text-align: center;
-    background-color: black;
-    color: white;
+    margin-top: 20px;
 }
 
-.box {
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.box:hover {
-    transform: scale(1.05);
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
-}
-
-.SearchBar {
-    padding: 6px;
-    border-radius: 10px;
-    border: none;
-    margin-right: 15px;
-    width: 150px;
-}
-.SearchBar:focus {
-    outline: none;
-    box-shadow: 0 0 5px gold;
-}
-
+/* FOOD PAGE */
 .FoodPage {
     max-width: 700px;
     margin: 40px auto;
@@ -193,24 +157,14 @@
     box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
 }
 
-.BackButton {
-    display: inline-block;
-    margin-top: 20px;
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    padding: 10px 15px;
-    border-radius: 10px;
-    transition: 0.2s;
-}
-
-.BackButton:hover {
-    background-color: #444;
-}
-
 .FoodPage h1 {
     font-size: 50px;
     margin-bottom: 10px;
+}
+
+.FoodPage h2 {
+    font-size: 24px;
+    margin-top: 20px;
 }
 
 .FoodPage p {
@@ -218,6 +172,7 @@
     line-height: 1.5;
 }
 
+/* FUN FACT */
 .FunFact {
     background-color: #ffe4b5;
     padding: 10px;
@@ -225,6 +180,7 @@
     margin-top: 15px;
 }
 
+/* RATING */
 .Rating {
     font-weight: bold;
     background-color: gold;
@@ -234,18 +190,33 @@
     margin-bottom: 10px;
 }
 
-.FoodPage h2 {
+/* BACK BUTTON */
+.BackButton {
+    display: inline-block;
     margin-top: 20px;
-    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 10px;
 }
 
-.FoodPage p {
-    line-height: 1.5;
+.BackButton:hover {
+    background-color: #444;
 }
 
+/* FOOTER */
+.Footer {
+    margin-top: 40px;
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/* BACKGROUND */
 body {
-            background-color: #4158D0;
-            background-image: linear-gradient(180deg, #e87d0a 0%, #90af06 46%, #1e7c0d 100%);
-            margin: 0;
-            min-height: 100vh;
-        }
+    margin: 0;
+    min-height: 100vh;
+    background-image: linear-gradient(180deg, #e87d0a 0%, #90af06 46%, #1e7c0d 100%);
+}
