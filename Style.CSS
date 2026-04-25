@@ -228,6 +228,11 @@ body {
     background-color: #444;
 }
 
+.NavLinks .active {
+    text-decoration: underline;
+    color: gold;
+}
+
 
 html {
     scroll-behavior: smooth;
